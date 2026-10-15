@@ -25,6 +25,9 @@ npm test                          # 14 domain + crypto tests (Node ≥ 20)
 ```
 `localhost` counts as secure, so offline mode and encryption work there.
 
+## Live
+**https://rienk-raket.github.io/lifeos/** — repo `Rienk-Raket/lifeos` (public; code only, never your data). Redeploy after changes: `sh scripts/deploy-pages.sh "what changed"` (runs the tests first).
+
 ## Put it on an iPhone
 iPhone Safari only enables offline mode and encryption on **https**. Host the `app/` folder on any static https host (GitHub Pages, Netlify, Cloudflare Pages, your own server). Then in Safari: Share → **Add to Home Screen**, and open LifeOS from the icon. Installed apps keep their data far more reliably on iOS; still make regular encrypted backups (Data & backup → Share → Save to Files).
 
